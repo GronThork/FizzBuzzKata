@@ -18,6 +18,9 @@ namespace FizzBuzzKata
 
         public static string GetFizzBuzz(int input)
         {
+            if (input == 3)
+                return "Fizz";
+
             return input.ToString();
         }
     }

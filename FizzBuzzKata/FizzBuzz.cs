@@ -12,6 +12,11 @@ namespace FizzBuzzKata
             return false;
         }
 
+        public static object FizzBuzzMain(int v)
+        {
+            throw new NotImplementedException();
+        }
+
         public static bool IsFizz(int input)
         {
             if (input % 3 == 0)

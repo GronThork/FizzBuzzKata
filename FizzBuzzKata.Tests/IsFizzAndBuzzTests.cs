@@ -2,7 +2,7 @@
 
 namespace FizzBuzzKata.Tests
 {
-    public class MultipleThreeAndFiveTests
+    public class IsFizzAndBuzzTests
     {
         [Fact]
         public void ReturnTrueIfFifteenIsMultipleOfThreeAndFive()

@@ -24,5 +24,15 @@ namespace FizzBuzzKata.Tests
 
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void ReturnsThreeInPositionTwo()
+        {
+            int expected = 3;
+
+            int actual = FizzBuzz.GetOneToOneHundred()[2];
+
+            Assert.Equal(expected, actual);
+        }
     }
 }

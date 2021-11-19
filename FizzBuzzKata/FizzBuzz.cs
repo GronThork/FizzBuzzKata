@@ -26,13 +26,7 @@ namespace FizzBuzzKata
 
         public static string IsBuzz(int input)
         {
-            if (input == 5)
-                return "Buzz";
-
-            if (input == 10)
-                return "Buzz";
-
-            if (input == 15)
+            if (input % 5 == 0)
                 return "Buzz";
 
             return input.ToString();

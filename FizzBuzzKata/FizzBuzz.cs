@@ -17,6 +17,9 @@ namespace FizzBuzzKata
             if (IsBuzz(v))
                 return "Buzz";
 
+            if (IsFizz(v))
+                return "Fizz";
+
             return v.ToString();
         }
 

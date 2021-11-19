@@ -16,18 +16,6 @@ namespace FizzBuzzKata
             return intArray;
         }
 
-        public static string GetFizzBuzz(int input)
-        {
-            if (input == 3)
-                return "Fizz";
-
-            if (input == 6)
-                return "Fizz";
-
-            if (input == 9)
-                return "Fizz";
-
-            return input.ToString();
-        }
+        public static string GetFizzBuzz(int input) => input % 3 == 0 ? "Fizz" : input.ToString();
     }
 }

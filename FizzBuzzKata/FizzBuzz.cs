@@ -24,6 +24,9 @@ namespace FizzBuzzKata
             if (input == 5)
                 return "Buzz";
 
+            if (input == 10)
+                return "Buzz";
+
             return input.ToString();
         }
     }

@@ -15,5 +15,10 @@ namespace FizzBuzzKata
 
             return intArray;
         }
+
+        public static string GetFizzBuzz(int input)
+        {
+            return input.ToString();
+        }
     }
 }

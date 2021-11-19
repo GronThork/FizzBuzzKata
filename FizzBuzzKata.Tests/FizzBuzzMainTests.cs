@@ -8,7 +8,7 @@ namespace FizzBuzzKata.Tests
         [Fact]
         public void FizzBuzzMain_ReturnBuzzForInputFive()
         {
-            string expected = "5";
+            string expected = "Buzz";
 
             var actual = FizzBuzz.FizzBuzzMain(5);
 

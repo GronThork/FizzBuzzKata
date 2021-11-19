@@ -12,9 +12,12 @@ namespace FizzBuzzKata
             return false;
         }
 
-        public static object FizzBuzzMain(int v)
+        public static string FizzBuzzMain(int v)
         {
-            throw new NotImplementedException();
+            if (IsBuzz(v))
+                return "Buzz";
+
+            return v.ToString();
         }
 
         public static bool IsFizz(int input)

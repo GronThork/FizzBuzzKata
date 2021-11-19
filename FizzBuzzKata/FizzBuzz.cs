@@ -15,7 +15,7 @@ namespace FizzBuzzKata
             if (IsFizz(v))
                 return "Fizz";
 
-            return v.ToString();
+            return "PEPE";
         }
 
         public static bool IsFizz(int input)

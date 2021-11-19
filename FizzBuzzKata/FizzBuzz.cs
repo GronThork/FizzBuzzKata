@@ -16,6 +16,11 @@ namespace FizzBuzzKata
             return intArray;
         }
 
+        public static string IsFizzAndBuzz(int input)
+        {
+            throw new NotImplementedException();
+        }
+
         public static string IsFizz(int input)
         {
             if (input % 3 == 0)

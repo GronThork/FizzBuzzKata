@@ -40,7 +40,7 @@ namespace FizzBuzzKata.Tests
         {
             string expected = "Fizz";
 
-            var actual = FizzBuzz.GetFizzBuzz(3);
+            var actual = FizzBuzz.IsFizz(3);
 
             Assert.Equal(expected, actual);
         }
@@ -50,7 +50,7 @@ namespace FizzBuzzKata.Tests
         {
             string expected = "Fizz";
 
-            var actual = FizzBuzz.GetFizzBuzz(6);
+            var actual = FizzBuzz.IsFizz(6);
 
             Assert.Equal(expected, actual);
         }
@@ -60,7 +60,7 @@ namespace FizzBuzzKata.Tests
         {
             string expected = "Fizz";
 
-            var actual = FizzBuzz.GetFizzBuzz(9);
+            var actual = FizzBuzz.IsFizz(9);
 
             Assert.Equal(expected, actual);
         }
@@ -70,7 +70,7 @@ namespace FizzBuzzKata.Tests
         {
             string expected = "Buzz";
 
-            var actual = FizzBuzz.GetFizzBuzz(5);
+            var actual = FizzBuzz.IsBuzz(5);
 
             Assert.Equal(expected, actual);
         }
@@ -80,7 +80,17 @@ namespace FizzBuzzKata.Tests
         {
             string expected = "Buzz";
 
-            var actual = FizzBuzz.GetFizzBuzz(10);
+            var actual = FizzBuzz.IsBuzz(10);
+
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void ReturnBuzzForInputFifteen()
+        {
+            string expected = "Buzz";
+
+            var actual = FizzBuzz.IsBuzz(15);
 
             Assert.Equal(expected, actual);
         }

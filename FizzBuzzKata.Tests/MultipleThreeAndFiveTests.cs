@@ -13,5 +13,15 @@ namespace FizzBuzzKata.Tests
 
             Assert.Equal(expected,actual);
         }
+
+        [Fact]
+        public void ReturnFalseIfFourTeenIsNotMultipleOfThreeAndFive()
+        {
+            bool expected = false;
+
+            bool actual = FizzBuzz.IsFizzAndBuzz(14);
+
+            Assert.Equal(expected, actual);
+        }
     }
 }

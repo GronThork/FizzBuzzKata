@@ -6,11 +6,12 @@ namespace FizzBuzzKata
     {
         public static int[] GetOneToOneHundred()
         {
-            var intArray = new int[3];
+            var intArray = new int[100];
 
-            intArray[0] = 1;
-            intArray[1] = 2;
-            intArray[2] = 3;
+            for (var i = 0; i < 100; i++)
+            {
+                intArray[i] = i+1;
+            }
 
             return intArray;
         }

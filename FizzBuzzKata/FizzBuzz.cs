@@ -7,7 +7,9 @@ namespace FizzBuzzKata
         public static int[] GetOneToOneHundred()
         {
             var intArray = new int[1];
-            intArray[0] = 0;
+
+            intArray[0] = 1;
+
             return intArray;
         }
     }

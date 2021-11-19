@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzKata", "FizzBuzzKata\FizzBuzzKata.csproj", "{D8BC435B-DC8C-4B13-9637-6715EF62F3BD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Front", "Front\Front.csproj", "{2E4298B6-6532-4B33-857C-AC08FCC3E515}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D8BC435B-DC8C-4B13-9637-6715EF62F3BD} = {D8BC435B-DC8C-4B13-9637-6715EF62F3BD}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzKata.Tests", "FizzBuzzKata.Tests\FizzBuzzKata.Tests.csproj", "{31F31CFD-232A-4256-B34E-01B62E2A548F}"
 EndProject

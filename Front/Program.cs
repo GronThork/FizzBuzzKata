@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FizzBuzzKata;
+using System;
 
 namespace Front
 {
@@ -6,7 +7,10 @@ namespace Front
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for (int i = 0; i < 100; i++)
+            {
+                Console.WriteLine(FizzBuzz.FizzBuzzMain(i + 1));
+            }
         }
     }
 }

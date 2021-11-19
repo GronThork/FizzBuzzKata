@@ -16,25 +16,28 @@ namespace FizzBuzzKata
             return intArray;
         }
 
-        public static string IsFizzAndBuzz(int input)
+        public static bool IsFizzAndBuzz(int input)
         {
-            throw new NotImplementedException();
+            if (IsFizz(input) && IsBuzz(input))
+                return true;
+
+            return false;
         }
 
-        public static string IsFizz(int input)
+        public static bool IsFizz(int input)
         {
             if (input % 3 == 0)
-                return "Fizz";
+                return true;
             
-            return input.ToString();
+            return false;
         }
 
-        public static string IsBuzz(int input)
+        public static bool IsBuzz(int input)
         {
             if (input % 5 == 0)
-                return "Buzz";
+                return true;
 
-            return input.ToString();
+            return false;
         }
     }
 }

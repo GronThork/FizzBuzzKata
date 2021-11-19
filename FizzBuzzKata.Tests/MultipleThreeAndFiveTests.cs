@@ -5,11 +5,11 @@ namespace FizzBuzzKata.Tests
     public class MultipleThreeAndFiveTests
     {
         [Fact]
-        public void ReturnFizzBuzzIfFifteenIsMultipleOfThreeAndFive()
+        public void ReturnTrueIfFifteenIsMultipleOfThreeAndFive()
         {
-            string expected = "FizzBuzz";
+            bool expected = true;
 
-            string actual = FizzBuzz.IsFizzAndBuzz(15);
+            bool actual = FizzBuzz.IsFizzAndBuzz(15);
 
             Assert.Equal(expected,actual);
         }

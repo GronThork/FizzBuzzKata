@@ -45,5 +45,15 @@ namespace FizzBuzzKata.Tests
             Assert.Equal(expected, actual);
         }
 
+        [Fact]
+        public void ReturnFizzForInputSix()
+        {
+            string expected = "Fizz";
+
+            var actual = FizzBuzz.GetFizzBuzz(6);
+
+            Assert.Equal(expected, actual);
+        }
+
     }
 }
